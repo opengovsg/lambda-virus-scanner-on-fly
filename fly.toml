@@ -17,7 +17,7 @@ swap_size_mb = 1536
   VIRUS_SCANNER_CLEAN_S3_BUCKET = 'form-virus-scanner-clean-bucket'
   VIRUS_SCANNER_QUARANTINE_S3_BUCKET = 'form-virus-scanner-quarantine-bucket'
   _HANDLER = 'index.handler'
-  LAMBDA_TASK_ROOT = '/build'
+  LAMBDA_TASK_ROOT = '/function/build'
 
 [http_service]
   internal_port = 8080
