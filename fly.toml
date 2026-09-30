@@ -28,4 +28,5 @@ swap_size_mb = 1536
   processes = ['app']
 
 [[vm]]
-  size = 'shared-cpu-2x'
+  size = 'shared-cpu-1x'
+  memory = '512mb'
